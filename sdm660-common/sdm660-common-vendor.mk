@@ -894,8 +894,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sdm660-common/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    libthermalclient \
-    libtime_genoff \
     libqsocket \
     vendor.qti.hardware.fm@1.0 \
     com.quicinc.cne.api@1.0 \
@@ -903,7 +901,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@1.0 \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.constants@2.1 \
-    SoterService \
     CneApp \
     IWlanService \
     TimeService \
@@ -971,7 +968,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dpmservice-V1.0-java \
     vendor.qti.hardware.dpmservice-V1.1-java \
     vendor.qti.hardware.mwqemadapter-V1.0-java \
-    vendor.qti.hardware.sensorscalibrate-V1.0-java \
     vendor.qti.hardware.slmadapter-V1.0-java \
     vendor.qti.hardware.soter-V1.0-java \
     vendor.qti.ims.callcapability-V1.0-java \
